@@ -10,7 +10,7 @@ app_license = "MIT"
 # Includes in <head>
 # ------------------
 
-on_login = 'notifyemployee.events.auth.successful_login'
+on_session_creation = 'notifyemployee.events.auth.successful_login'
 # include js, css files in header of desk.html
 # app_include_css = "/assets/notifyemployee/css/notifyemployee.css"
 # app_include_js = "/assets/notifyemployee/js/notifyemployee.js"
